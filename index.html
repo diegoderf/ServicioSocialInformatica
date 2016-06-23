@@ -10,6 +10,7 @@
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/grayscale.css" rel="stylesheet">
         <link href="css/estilos.css" rel="stylesheet">
+        <link rel="shortcut icon" href="img/upiicsa.ico"> 
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -23,8 +24,13 @@
         <!-- Cabecera -->
         <header>
             <div class="container-fluid">
-                  <br>
-                  <div class="page-header"> <h1>Academias de Informática</h1><h2>UPIICSA-IPN</h2></div>
+                <div class="row">
+                    <div class="col-md-2">
+                        
+                            <img class="logo" src="img/upiicsa.png"> 
+                    </div>
+                    <div class="page-header col-md-10 textologo"> <h1>Academias de Informática</h1><h2>UPIICSA-IPN</h2></div>
+                </div>
             </div>
         </header>
             
@@ -39,11 +45,11 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="#" class="navbar-brand">Logo</a>
+                    <a href="#" class="navbar-brand">Inicio</a>
                 </div>
                 <div class="collapse navbar-collapse" id="navegacion-fm">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#"><span class="glyphicon-glyphicon-home"></span>Inicio</a></li>
+                        <li class="active"><a href="#"><span class="glyphicon-glyphicon-home"></span>¿Quiénes Somos?</a></li>
                         <li class="dropdown"> 
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Unidades de Aprendizaje<span class="caret"></span></a> 
                             <ul class="dropdown-menu" role="menu" >
@@ -98,18 +104,13 @@
             
           <!-- Inicio de Sesión -->
                 <div class="row">
-                    <div class="col-md-12"></div>
-                    <div class="col-md-12 cabecera">
-                        <button type="button" class="btn btn-danger btn-sm botonigual" data-toggle="modal" data-target="#ModalProfesores">Acceso Profesores</button> 
-                    </div><div class="col-md-12"></div>
-                    <div class="col-md-12 cabecera">
-                        <button type="button" class="btn btn-danger btn-sm botonigual" data-toggle="modal" data-target="#ModalAlumnos">Acceso Alumnos</button>
-                    </div> 
-                    <div class="col-md-12"></div>
-                    <div class="col-md-12"></div>
-                    <div class="col-md-12"></div>
-                    <div class="col-md-12"></div>
-                    
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3 cabecera">
+                        <button type="button" class="btn btn-danger btn-sm botonigual" data-toggle="modal" data-target="#ModalProfesores"><span class="glyphicon glyphicon-folder-close"></span>  Acceso Profesores</button> 
+                    </div>
+                    <div class="col-md-3 cabecera">
+                        <button type="button" class="btn btn-danger btn-sm botonigual" data-toggle="modal" data-target="#ModalAlumnos"><span class="glyphicon glyphicon-user"></span>  Acceso Alumnos</button>
+                    </div>                                       
                 </div>
       
         <!-- Footer -->
